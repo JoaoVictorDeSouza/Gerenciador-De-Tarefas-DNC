@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Gerenciador de Tarefas DNC</title>
+</head>
+
+<body>
+    <main id="areaPrincipal">
+        <h1>Board de tarefas</h1>
+        <section>
+            <form id="cadastraTarefas">
+                <input type="text" 
+                id="descricao"
+                name="descricao"
+                class="inputDescricao" placeholder="Nome da tarefa">
+                <input type="text" 
+                id="etiqueta"
+                name="etiqueta"
+                class="inputDescricao"
+                placeholder="Etiqueta">
+                <button type="submit" id="addTarefa" class="botaoTarefa">+</button>
+            </form>
+        </section>
+        <section class="listaTarefasSection">
+            <ul id="listaTarefas"></ul>
+        </section>
+        <footer>
+
+        </footer>
+    </main>
+</body>
+
+</html>
